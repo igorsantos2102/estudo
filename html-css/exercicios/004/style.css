@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Kanit:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+
+:root{
+    --font01:  'Kalam', cursive;
+    --font02: 'Kanit', sans-serif;
+    --font03: 'Inter', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image:linear-gradient(to top, rgba(240, 248, 255, 0.548) 20%, rgba(214, 114, 114, 0.418) );
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-image: linear-gradient(130deg, #cc1919 , #A40606, #790103, #660706, #152135, #1a2a42, #141B41, #02111B);
+    color: white;
+    box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.473);
+}
+
+header h1{
+    font-family: var(--font01);
+    font-size: 3em;
+    text-shadow: 1px 2px 3px rgba(180, 180, 180, 0.301);
+}
+
+main{
+    width: 70vw;
+    margin: auto;
+    margin-bottom: 50px;
+    box-shadow: 0px 2px 5px 5px rgba(179, 178, 178, 0.247);
+    border-radius: 0px 0px 5px 5px;
+}
+
+main h2{
+    padding: 60px;
+    padding-top: 100px;
+    text-align: center;
+    margin: auto;
+    font-family: var(--font02);
+    text-decoration: underline;
+}
+
+section{
+    padding: 20px;
+    width: 50vw;
+    margin: auto;
+    background-attachment: fixed;
+    border-radius: 2px;
+}
+
+#marvel{
+    background-image: url(../img/marvel-pq.jpg);
+    background-size: cover;
+    background-position: center center  ;
+}
+
+#dc{
+    background-image: url(../img/dc-comics.webp);
+    background-size: cover;
+    background-position: center center;
+}
+
+section p{
+    font-family: var(--font03);
+    font-size: 1.1em;
+    font-weight: bolder;
+    line-height: 1.5em;
+    text-align: justify;
+    padding-bottom: 40px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.603);
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.699);
+    border-radius: 2px;
+}
+
+footer{
+    background-color: #02111B;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    box-shadow: 0px 0px 2px 5px #02111B;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}

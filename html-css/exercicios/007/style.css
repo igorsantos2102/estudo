@@ -1,0 +1,55 @@
+
+/* Tabela 01 */
+
+/* table{
+    border-collapse: collapse;
+    width: 500px;
+    height: 200px;
+}
+
+td{
+    border: 1px solid;
+    text-align: center;
+} */
+
+/* Tabela 02 
+
+table{
+    width: 500px;
+    height: 200px;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid;
+    text-align: center;
+} */
+
+table{
+    width: 500px;
+    height: 200px;
+    border-collapse: collapse;
+}
+
+
+td, th{
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+} 
+th{
+    background-color: gray;
+    color: #fff;
+}
+
+/* .header{
+    background-color: rgba(128, 128, 128, 0.651);
+}
+
+#woman, #man{
+    background-color: rgb(128, 128, 128);
+}
+
+.color:nth-child(2n-1){
+    background-color: rgb(92, 156, 160);
+} */
