@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(31, 32, 133);
+    color: #ffffff;
+    padding: 30px;
+}
+
+header h1{
+    text-align: center;
+}
+
+.image{
+    width: 100%;
+    height: 600px;
+    background-image: url(https://meulugar.quintoandar.com.br/wp-content/uploads/2022/02/Praca-do-Maraco-Zero-Rosa-dos-Ventos-Abre.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section{
+    width: 80%;
+}
+
+section p{
+    padding: 5px;
+    margin: 10px;
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+hr{
+    border: none;
+    padding: .5px;
+    background-color: rgb(33, 21, 138);
+}
+
+main h2{
+    padding: 2px;
+    text-align: center;
+}
+
+main p{
+    padding: 5px;
+    margin: 10px;
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+article{
+    width: 35%;
+    height: 230px;
+    margin: 20px auto;
+    background-color: rgb(49, 102, 146);
+}
+
+article h2{
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+article img{
+    width: 100%;
+    height: 200px;    
+}
+
+footer{
+    height: 80px;
+    background-color: rgb(31, 32, 133)                  ;
+}
+
+footer ul{
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+footer ul li{
+    margin: 10px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer ul li a:hover{
+  color: blue;
+}
+
+footer p{
+    text-align: center;
+    color: #ffffff;
+}
+
