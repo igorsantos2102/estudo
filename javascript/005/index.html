@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="script.js" defer></script>
+
+    <style>
+        body{
+            background-color: #D90423;
+        }
+
+        div{
+            height: 400px;
+            width: 400px;
+            background-color: #332523;
+            margin: auto;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
+            border-radius: 5px;
+        }
+
+        div p{
+            font-size: 3em;
+            text-align: center;
+        }
+
+        div button{
+            color: #ffffff;
+            background-color: #D90423;
+            border: none;
+            padding: 8px;
+            cursor: pointer;
+            border-radius: 5px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.432);
+            transition: transform .3s;
+        }
+
+        div button:hover{
+            background-color: #d90424bb;
+            transform: scale(1.2);
+
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <p id="love">I LOVE YOU</p>
+        <button id="btn">CLIQUE AQUI</button>
+    </div>
+</body>
+</html>

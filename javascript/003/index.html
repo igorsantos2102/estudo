@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+
+    <section class="container">
+        <div class="dados">
+            <form action="#">
+
+                <label for="nsc">Ano de nascimento:</label>
+                <input type="text" id="nsc" maxlength="4" required>
+                    <br>
+                <label for="sexo" required>Sexo:</label>
+
+                <input type="radio" name="sexo" id="masc"> 
+                <label for="masc">Masculino</label> 
+
+                <input type="radio" name="sexo" id="femi">
+                <label for="femi">Feminino</label> 
+                    <br>
+
+                <button id="btn" onclick ="calcular()">Verificar</button>  
+            
+            </form>
+
+            <p id="res">Preencha os dados acima para saber o resultado!</p>
+            <div id="img">
+                <img id="image" src="">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; <a href="https://github.com/igorsantos2102" target="_blank">Igor Santos</a></p>
+    </footer>
+</body>
+</html>
