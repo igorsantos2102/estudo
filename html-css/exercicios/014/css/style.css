@@ -50,7 +50,7 @@
 .animated-text1 {
     position: absolute;
     top: 50%;
-    left: -150%;
+    left: -170%;
     font-size: 5rem;
     color: red;
     white-space: nowrap;
@@ -65,10 +65,10 @@
 /* Keyframes para animar o texto da esquerda para a direita */
 @keyframes slide-in {
     0% {
-        left: -150%;
+        left: -170%;
     }
     100% {
-        left: 150%;
+        left: 170%;
     }
 }
 
