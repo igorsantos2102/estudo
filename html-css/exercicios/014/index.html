@@ -3,17 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Surpresa</title>
 
+    <link rel="shortcut icon" href="web/icons8-coração-color-32.png" type="image/x-icon">
+    <link rel="shortcut icon" href="web/icons8-coração-color-60.png" type="image/x-icon">
+    <link rel="shortcut icon" href="web/icons8-coração-color-72.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- Incorporando o áudio -->
+    <audio id="background-audio">
+        <source src="audio/George Michael - Careless Whisper (Official Video).mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
     <div class="pedido">
-        <h1>Aceita namorar comigo ?</h1>
+        <h1>Aceita namorar comigo?</h1>
     </div>
+    
     <section class="container">
-        <button type="button" id="Sim">Sim</button>
+        <button type="button" id="sim">Sim</button>
         <button type="button" id="nao">Não</button>
     </section>
+
+    <!-- Elemento para a animação -->
+    <div class="hidden">
+        <div class="animated-text1">Eu te amo</div>
+        <div class="animated-text2">Muito <img src="web/icons8-coração-color-72.png" alt=""></div>
+        <div class="animated-text3">Sua linda da minha vida</div>
+    </div>
+    
+    <script src="js/index.js"></script>
 </body>
 </html>
