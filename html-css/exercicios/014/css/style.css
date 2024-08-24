@@ -50,13 +50,13 @@
 .animated-text1 {
     position: absolute;
     top: 50%;
-    left: -130%;
+    left: -150%;
     font-size: 5rem;
     color: red;
     white-space: nowrap;
 
     animation: slide-in 10s linear infinite;
-    animation-delay: 5s;
+    animation-delay: 6s;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,10 +65,10 @@
 /* Keyframes para animar o texto da esquerda para a direita */
 @keyframes slide-in {
     0% {
-        left: -130%;
+        left: -150%;
     }
     100% {
-        left: 130%;
+        left: 150%;
     }
 }
 
