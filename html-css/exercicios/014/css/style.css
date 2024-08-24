@@ -60,21 +60,18 @@
 
 /* Animações para cada texto */
 .animated-text1 {
-    animation: slide-in 5s linear infinite;
+    animation: slide-in 6s linear infinite;
 }
 
 .animated-text2 {
-    animation: slide-2 5s linear  infinite;
-    animation-delay: 4.5s; /* Começa após o primeiro texto */
+    animation: slide-2 6s linear  infinite;
+    animation-delay: 3.9s; /* Começa após o primeiro texto */
     display: flex;
     align-items: center;
     justify-content: center;
+    left: -110%;
 }
 
-.animated-text3 {
-    animation: slide-3 5s linear  infinite;
-    animation-delay: 9.1s; /* Começa após o segundo texto */
-}
 
 /* Keyframes para animar o texto da esquerda para a direita */
 @keyframes slide-in {
@@ -88,19 +85,10 @@
 
 @keyframes slide-2 {
     0% {
-        left: -100%;
+        left: -110%;
     }
     100% {
-        left: 100%;
-    }
-}
-
-@keyframes slide-3 {
-    0% {
-        left: -100%;
-    }
-    100% {
-        left: 100%;
+        left: 110%;
     }
 }
 
