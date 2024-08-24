@@ -1,0 +1,27 @@
+.pedido h1 {
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container button {
+    width: 60px;
+    height: 25px;
+    border: none;
+    background-color: rgb(204, 196, 196);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.11);
+}
+
+.container button:hover {
+    cursor: pointer;
+    background-color: rgb(167, 167, 167);
+}
