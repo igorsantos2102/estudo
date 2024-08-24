@@ -79,7 +79,7 @@
 /* Keyframes para animar o texto da esquerda para a direita */
 @keyframes slide-in {
     0% {
-        left: -50%;
+        left: -100%;
     }
     100% {
         left: 100%;
@@ -88,7 +88,7 @@
 
 @keyframes slide-2 {
     0% {
-        left: -50%;
+        left: -100%;
     }
     100% {
         left: 100%;
@@ -97,7 +97,7 @@
 
 @keyframes slide-3 {
     0% {
-        left: -50%;
+        left: -100%;
     }
     100% {
         left: 100%;
