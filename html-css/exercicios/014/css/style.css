@@ -15,29 +15,29 @@
 /* Estilos para dispositivos móveis */
 @media (max-width: 768px) {
     .container {
-        flex-direction: column; /* Coloca os elementos em uma coluna */
-        width: 100%; /* Usa a largura total da tela */
-        height: auto; /* Altura se adapta ao conteúdo */
-        gap: 10px; /* Reduz o espaço entre os elementos */
+        flex-direction: column; 
+        width: 100%;
+        height: auto; 
+        gap: 10px; 
     }
 
     .container button {
-        width: 80px; /* Aumenta o tamanho dos botões em telas menores */
-        height: 35px; /* Aumenta a altura dos botões para melhorar a usabilidade */
-        margin: 15px; /* Reduz a margem ao redor dos botões */
+        width: 80px;
+        height: 35px;
+        margin: 15px;
     }
 }
 
 /* Estilos para telas ainda menores, como smartphones */
 @media (max-width: 480px) {
     .container {
-        gap: 5px; /* Reduz ainda mais o espaço entre os elementos */
+        gap: 5px;
     }
 
     .container button {
-        width: 100px; /* Ajusta o tamanho dos botões para telas pequenas */
-        height: 40px; /* Melhora a altura para facilitar o toque */
-        margin: 10px; /* Reduz as margens */
+        width: 100px;
+        height: 40px;
+        margin: 10px;
     }
 }
 
@@ -62,7 +62,7 @@
     justify-content: center;
 }
 
-/* Keyframes para animar o texto da esquerda para a direita */
+
 @keyframes slide-in {
     0% {
         left: -170%;
@@ -72,7 +72,6 @@
     }
 }
 
-/* Oculta o texto inicialmente */
 .hidden {
     display: none;
 }
