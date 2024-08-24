@@ -47,48 +47,28 @@
 }
 
 /* Estilo base para o texto animado */
-.animated-text1,
-.animated-text2,
-.animated-text3 {
+.animated-text1 {
     position: absolute;
     top: 50%;
-    left: -50%;
+    left: -130%;
     font-size: 5rem;
     color: red;
     white-space: nowrap;
-}
 
-/* Animações para cada texto */
-.animated-text1 {
-    animation: slide-in 6s linear infinite;
-}
-
-.animated-text2 {
-    animation: slide-2 6s linear  infinite;
-    animation-delay: 3.9s; /* Começa após o primeiro texto */
+    animation: slide-in 10s linear infinite;
+    animation-delay: 5s;
     display: flex;
     align-items: center;
     justify-content: center;
-    left: -110%;
 }
-
 
 /* Keyframes para animar o texto da esquerda para a direita */
 @keyframes slide-in {
     0% {
-        left: -100%;
+        left: -130%;
     }
     100% {
-        left: 100%;
-    }
-}
-
-@keyframes slide-2 {
-    0% {
-        left: -110%;
-    }
-    100% {
-        left: 110%;
+        left: 130%;
     }
 }
 
